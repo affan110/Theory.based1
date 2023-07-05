@@ -1,0 +1,48 @@
+Create a simple Music player using html only
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .music-player {
+      width: 300px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .music-player h2 {
+      text-align: center;
+    }
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .controls button {
+      padding: 8px 16px;
+      font-size: 14px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="music-player">
+    <h2>My Music Player</h2>
+    <audio src="path_to_audio_file.mp3" controls></audio>
+    <div class="controls">
+      <button>Play</button>
+      <button>Pause</button>
+    </div>
+  </div>
+</body>
+</html>

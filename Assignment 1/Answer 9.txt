@@ -1,0 +1,34 @@
+What’s the difference between html tag and attribute and give example of some global attributes?
+
+
+HTML Tags:
+
+HTML tags are used to define the structure and formatting of elements within an HTML document.
+Tags are written within angle brackets (< >) and consist of opening and closing tags, with content placed between them.
+Tags define the type and purpose of an element, such as headings, paragraphs, lists, images, etc.
+Each HTML tag serves a specific function and has its own set of rules and attributes associated with it.
+Example:
+<p>This is a paragraph.</p>
+
+HTML Attributes:
+
+HTML attributes provide additional information or properties for HTML elements.
+Attributes are used within HTML tags and provide specific instructions or settings for elements.
+Attributes modify the behavior or appearance of an element, define relationships, or provide additional metadata.
+Attributes are defined using the attribute name followed by an equals sign (=) and enclosed in quotes (single or double).
+Elements can have multiple attributes, each separated by a space.
+Example:
+<a href="https://www.example.com" target="_blank">Visit Example Website</a>
+
+Global Attributes:
+Global attributes are attributes that can be applied to any HTML element, regardless of its specific tag. Here are some examples of global attributes:
+
+class: Specifies one or more class names for an element, allowing CSS styling and JavaScript manipulation.
+id: Defines a unique identifier for an element, often used for targeting the element with CSS or JavaScript.
+style: Specifies inline CSS styles for an element, allowing the application of custom styling.
+title: Provides additional information or a tooltip for an element when the user hovers over it.
+data-*: Allows the addition of custom data attributes to elements for storing custom data.
+Example:
+<div class="container" id="myContainer" style="background-color: blue;" title="This is a container">
+  <p data-custom="123">Some text inside the container.</p>
+</div>
