@@ -1,15 +1,22 @@
 What is the purpose of using Media Queries for Print Media?
 
-he purpose of using Media Queries for print media is to apply specific styles and formatting to web content when it is printed or viewed in a print preview. Media Queries allow developers to customize the appearance of printed documents, ensuring that they are optimized for the constraints and requirements of the print medium.
+he purpose of using Media Queries for print media is to apply specific styles and formatting to web content when it is printed or viewed in a print preview. 
+Media Queries allow developers to customize the appearance of printed documents, ensuring that they are optimized for the constraints and requirements of 
+the print medium.
 
-When a web page is printed, it often needs to be adapted to a different context compared to its digital counterpart. Print media typically has different characteristics and considerations, such as the physical dimensions of the paper, ink limitations, and the absence of interactive elements like hyperlinks or animations. Media Queries provide a means to address these differences and enhance the readability and usability of the printed content.
+When a web page is printed, it often needs to be adapted to a different context compared to its digital counterpart. Print media typically has different 
+characteristics and considerations, such as the physical dimensions of the paper, ink limitations, and the absence of interactive elements like hyperlinks 
+or animations. Media Queries provide a means to address these differences and enhance the readability and usability of the printed content.
 
-By using Media Queries specifically for print media, developers can control various aspects of the printed output. They can modify typography, adjust margins, remove unnecessary elements, and apply other print-specific styling to improve the legibility and aesthetics of the printed document. For example, the font size might be increased, the background color removed, and page breaks inserted to ensure that content flows properly across pages.
+By using Media Queries specifically for print media, developers can control various aspects of the printed output. They can modify typography, adjust margins, 
+remove unnecessary elements, and apply other print-specific styling to improve the legibility and aesthetics of the printed document. 
+For example, the font size might be increased, the background color removed, and page breaks inserted to ensure that content flows properly across pages.
 
 ex:
 @media print {
   /* CSS rules for print media */
 }
 
-Within the curly braces, developers can define the CSS rules that should be applied when the content is printed. These rules can include changes to font styles, colors, margins, padding, page breaks, and more.
+Within the curly braces, developers can define the CSS rules that should be applied when the content is printed. These rules can include changes to 
+font styles, colors, margins, padding, page breaks, and more.
 
