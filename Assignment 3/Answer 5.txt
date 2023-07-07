@@ -1,8 +1,12 @@
 What is the purpose of the orientation media feature?
 
-The purpose of the orientation media feature is to detect and target specific device orientations, such as portrait or landscape, using Media Queries in CSS. It allows developers to apply different styles and layout adjustments based on the orientation of the device, enhancing the user experience and optimizing the presentation of content accordingly.
+The purpose of the orientation media feature is to detect and target specific device orientations, such as portrait or landscape, using Media Queries in CSS. 
+It allows developers to apply different styles and layout adjustments based on the orientation of the device, enhancing the user experience and optimizing 
+the presentation of content accordingly.
 
-The orientation media feature primarily focuses on two values: "portrait" and "landscape." These values represent the vertical and horizontal orientations of a device's display, respectively. By utilizing the orientation feature within Media Queries, developers can create responsive designs that adapt to different device orientations and provide an optimal user experience in each.
+The orientation media feature primarily focuses on two values: "portrait" and "landscape." These values represent the vertical and horizontal orientations 
+of a device's display, respectively. By utilizing the orientation feature within Media Queries, developers can create responsive designs that adapt to 
+different device orientations and provide an optimal user experience in each.
 
 Here's an example of how the orientation media feature can be used in CSS:
 
@@ -15,5 +19,6 @@ Here's an example of how the orientation media feature can be used in CSS:
 }
 
 
-In this example, the CSS rules within the first media query will only apply when the device is in portrait orientation, while the CSS rules within the second media query will apply when the device is in landscape orientation.
+In this example, the CSS rules within the first media query will only apply when the device is in portrait orientation, while the CSS rules within the 
+second media query will apply when the device is in landscape orientation.
 
