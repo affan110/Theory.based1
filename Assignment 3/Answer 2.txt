@@ -1,8 +1,11 @@
 How do you define a media query in CSS?
 
-In CSS, a media query is defined using the @media rule. It allows developers to specify different styles and layout properties based on specific conditions or characteristics of the device or viewport on which the content is being displayed.
+In CSS, a media query is defined using the @media rule. It allows developers to specify different styles and layout properties based on specific 
+conditions or characteristics of the device or viewport on which the content is being displayed.
 
-To define a media query, you start with the @media keyword followed by one or more conditions enclosed in parentheses. These conditions determine when the styles within the media query should be applied. The conditions can be based on various factors such as the device's screen size, resolution, orientation, media type, and more.
+To define a media query, you start with the @media keyword followed by one or more conditions enclosed in parentheses. 
+These conditions determine when the styles within the media query should be applied. The conditions can be based on various factors 
+such as the device's screen size, resolution, orientation, media type, and more.
 
 Here's an example of a media query that targets devices with a maximum screen width of 600 pixels:
 
@@ -13,7 +16,8 @@ Here's an example of a media query that targets devices with a maximum screen wi
 
 In this example, any CSS rules placed within the media query will only apply to devices with a screen width equal to or smaller than 600 pixels.
 
-You can also combine multiple conditions using logical operators such as and and or. For instance, the following media query targets devices with a minimum width of 768 pixels and a maximum width of 1024 pixels:
+You can also combine multiple conditions using logical operators such as and and or. For instance, the following media query targets devices
+with a minimum width of 768 pixels and a maximum width of 1024 pixels:
 
 @media (min-width: 768px) and (max-width: 1024px) {
   /* CSS rules for devices with a width between 768px and 1024px */
