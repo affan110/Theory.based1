@@ -1,0 +1,18 @@
+What’s z-index and How does it Function ?
+
+
+In CSS, the z-index property controls the stacking order of positioned elements on a web page along the z-axis. The z-axis represents the depth or "elevation" of elements, determining which elements appear in front of or behind others. The z-index value determines the priority of an element in the stacking order, with higher values appearing in front of elements with lower values.
+
+Here's how z-index functions:
+
+Default Stacking Order: By default, positioned elements (those with position: relative, position: absolute, or position: fixed) are stacked in the order they appear in the HTML markup. Later elements are placed on top of earlier elements in the stacking order.
+
+Specifying z-index: To alter the default stacking order, you can assign a specific z-index value to an element. The z-index can be any positive or negative integer or the auto value. A higher z-index value means the element will appear in front of elements with lower z-index values.
+
+Stacking Context: Elements with a z-index value other than auto create a new stacking context. Within a stacking context, elements are stacked relative to other elements within the same context. The stacking order is not affected by elements in different stacking contexts.
+
+Parent-Child Relationship: If a parent element has a z-index value, it establishes a stacking context for its child elements. Child elements with a higher z-index value will appear in front of their siblings within that stacking context.
+
+Stacking Order and Positioning: The stacking order is influenced by both the z-index value and the positioning of elements. Positioned elements with a higher z-index value will appear in front of elements with lower z-index values. If elements have the same z-index value, the order in the HTML markup determines their stacking order.
+
+Stacking Order of Different Stacking Contexts: When elements belong to different stacking contexts, elements within the same stacking context are stacked first before considering elements from other stacking contexts. The stacking order is maintained within each stacking context.
