@@ -1,10 +1,19 @@
 Whats difference between Inline, Inline Block and block ?
 
 
-In CSS, inline, inline-block, and block are display property values that determine how elements are rendered and flow within a document. Each value has distinct characteristics and behaviors:
+In CSS, inline, inline-block, and block are display property values that determine how elements are rendered and flow within a document.
+Each value has distinct characteristics and behaviors:
 
-Inline: Inline elements are displayed within the normal flow of text, side-by-side with other elements. They do not create line breaks before or after themselves. Examples of inline elements include <span>, <a>, <strong>, and <em>. The width and height properties have no effect on inline elements. Margin and padding can be applied horizontally, but not vertically. Inline elements ignore line-height and vertical-align affects their positioning. They cannot contain block-level elements, but can contain other inline elements.
+Inline: Inline elements are displayed within the normal flow of text, side-by-side with other elements. They do not create line breaks before or after themselves.
+Examples of inline elements include <span>, <a>, <strong>, and <em>. The width and height properties have no effect on inline elements. Margin and padding 
+can be applied horizontally, but not vertically. Inline elements ignore line-height and vertical-align affects their positioning. They cannot contain
+block-level elements, but can contain other inline elements.
 
-Inline-block: Inline-block elements are similar to inline elements in that they flow within the text, but they can have a defined width, height, margin, and padding. Inline-block elements can be considered as a hybrid of inline and block elements. They respect the box model properties (width, height, margin, and padding), allowing you to control their dimensions and spacing. They do not create line breaks, but they can exist on the same line or wrap to a new line if there isn't enough space. Examples of inline-block elements include <input>, <button>, and <img>. Inline-block elements can contain other inline and inline-block elements.
+Inline-block: Inline-block elements are similar to inline elements in that they flow within the text, but they can have a defined width, height, margin, and padding. 
+Inline-block elements can be considered as a hybrid of inline and block elements. They respect the box model properties (width, height, margin, and padding), 
+allowing you to control their dimensions and spacing. They do not create line breaks, but they can exist on the same line or wrap to a new line 
+if there isn't enough space. Examples of inline-block elements include <input>, <button>, and <img>. Inline-block elements can contain other inline and inline-block elements.
 
-Block: Block elements generate a block-level box that occupies the full width available in its containing element. They create line breaks before and after themselves, causing subsequent elements to start on a new line. Block elements can have defined width, height, margin, and padding. Examples of block elements include <div>, <p>, <h1> to <h6>, and <section>. Block elements can contain other block and inline elements.
+Block: Block elements generate a block-level box that occupies the full width available in its containing element. They create line breaks before and after themselves,
+causing subsequent elements to start on a new line. Block elements can have defined width, height, margin, and padding.
+Examples of block elements include <div>, <p>, <h1> to <h6>, and <section>. Block elements can contain other block and inline elements.
