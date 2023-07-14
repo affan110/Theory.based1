@@ -1,8 +1,13 @@
 What is VW/VH ?
 
 
-VW and VH are units of measurement in CSS that represent viewport width and viewport height, respectively. They are relative units that allow you to size elements based on a percentage of the browser window's width or height.
+VW and VH are units of measurement in CSS that represent viewport width and viewport height, respectively. They are relative units that allow you to 
+size elements based on a percentage of the browser window's width or height.
 
-VW (Viewport Width): VW represents 1% of the width of the browser window. For example, if the browser window is 1000 pixels wide, 1 VW is equivalent to 10 pixels. So, 50 VW would be 500 pixels. By using VW, you can create responsive designs that adapt to different screen sizes. It is particularly useful for creating fluid layouts and ensuring that elements scale proportionally across various devices and screen resolutions.
+VW (Viewport Width): VW represents 1% of the width of the browser window. For example, if the browser window is 1000 pixels wide, 1 VW is equivalent 
+to 10 pixels. So, 50 VW would be 500 pixels. By using VW, you can create responsive designs that adapt to different screen sizes. It is particularly
+useful for creating fluid layouts and ensuring that elements scale proportionally across various devices and screen resolutions.
 
-VH (Viewport Height): VH represents 1% of the height of the browser window. Similar to VW, it allows you to size elements based on a percentage of the viewport height. For example, if the browser window is 800 pixels tall, 1 VH is equivalent to 8 pixels. So, 25 VH would be 200 pixels. VH is commonly used for creating full-height sections, ensuring that they fill the entire height of the viewport regardless of the screen size.
+VH (Viewport Height): VH represents 1% of the height of the browser window. Similar to VW, it allows you to size elements based on a percentage of
+the viewport height. For example, if the browser window is 800 pixels tall, 1 VH is equivalent to 8 pixels. So, 25 VH would be 200 pixels.
+VH is commonly used for creating full-height sections, ensuring that they fill the entire height of the viewport regardless of the screen size.
