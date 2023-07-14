@@ -1,0 +1,15 @@
+What’s Box Model in CSS ?
+
+
+
+The box model is a fundamental concept in CSS (Cascading Style Sheets) that defines how elements are rendered and displayed on a web page. It describes the structure and properties of a rectangular box around each element on the page.
+
+The box model consists of four layers: content, padding, border, and margin. Here's a breakdown of each layer:
+
+Content: The innermost layer of the box model is the content area, which holds the actual content of the element such as text, images, or other HTML elements. It has dimensions defined by the width and height properties.
+
+Padding: The padding surrounds the content area and provides space between the content and the element's border. It can be set using the padding property and can have individual values for each side (top, right, bottom, and left). Padding adds extra space within the element.
+
+Border: The border surrounds the padding and content areas and creates a visible boundary for the element. It can be customized in terms of color, style, and thickness using the border property. Like padding, individual values can be set for each side.
+
+Margin: The margin is the outermost layer of the box model and creates space between the element and its neighboring elements. It provides separation between elements on the page. The margin can be set using the margin property and, like padding and border, individual values can be specified for each side.
