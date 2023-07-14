@@ -1,0 +1,40 @@
+Difference between absolute and relative and sticky and fixed position explain with example.
+
+
+In CSS, the positioning properties absolute, relative, sticky, and fixed allow you to control the placement and behavior of elements on a web page. Here's an explanation of the differences between these positioning options with examples:
+
+Absolute Positioning: Elements with position: absolute are positioned relative to their nearest positioned ancestor or the document's initial containing block if no ancestor has a positioned property. This positioning takes the element out of the normal document flow, meaning other elements can flow around it. An absolutely positioned element is placed using the top, right, bottom, and left properties, specifying the distance from the edges of its nearest positioned ancestor. If no ancestor is positioned, the distances are calculated relative to the document window. Here's an example:
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+
+In the example, the child element is positioned 20 pixels from the top and 30 pixels from the left of its nearest positioned ancestor (.parent).
+
+Relative Positioning: Elements with position: relative are positioned relative to their normal position in the document flow. They can be shifted using the top, right, bottom, and left properties, which move the element relative to its original position without affecting other elements. The space occupied by a relatively positioned element is still reserved in the normal flow. Here's an example:
+
+
+In the example, the child element is shifted 10 pixels down and 20 pixels to the right from its original position in the document flow.
+
+Sticky Positioning: Elements with position: sticky are positioned based on the user's scroll position. A sticky element remains in its normal position until it reaches a specified threshold (often defined using top, right, bottom, or left properties). Once the threshold is reached, the element becomes "sticky" and starts to scroll with the user. When the scrolling reaches the end of its containing element, it remains stuck until the user scrolls back or leaves the scrolling area. Here's an example:
+
+.sticky-element {
+  position: sticky;
+  top: 50px;
+}
+
+
+Fixed Positioning: Elements with position: fixed are positioned relative to the viewport (the browser window) and remain in the same position regardless of scrolling. Fixed elements are taken out of the normal document flow and are not affected by other elements. They are often used for elements such as headers, footers, or navigation bars that should remain visible at all times. Here's an example:
+
+.fixed-element {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
