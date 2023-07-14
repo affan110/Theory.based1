@@ -1,0 +1,8 @@
+How is Border-box different from Content Box?
+
+
+In CSS, the box-sizing property allows you to define how an element's width and height are calculated, affecting the overall size of the element. The two primary values for box-sizing are content-box and border-box, each with distinct behaviors:
+
+Content Box (Default): With box-sizing: content-box, the width and height properties of an element refer to the content area only. This means that if you specify a width or height for an element, any padding or border applied to it will be added on top of that specified width or height. In other words, the padding and border expand the element's total width and height beyond the specified dimensions. This can sometimes lead to unexpected results, as the total space occupied by the element will be larger than what is visually perceived.
+
+Border Box: On the other hand, with box-sizing: border-box, the width and height properties include the content, padding, and border of an element. When you specify a width or height for an element, the padding and border are included in those dimensions. The content area of the element is automatically adjusted to fit within the specified width and height. This means that the total space occupied by the element remains constant, regardless of the padding or border values applied. It provides a more intuitive way of sizing elements, as the specified width and height directly represent the visible space the element occupies.
