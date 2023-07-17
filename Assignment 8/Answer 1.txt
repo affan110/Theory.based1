@@ -1,0 +1,4 @@
+Q.1  Whats React and its pros and cons?
+
+React is a JavaScript library for building user interfaces. Its pros include a component-based architecture, efficient virtual DOM, unidirectional data flow, and a large community. However, React has cons such as a learning curve, boilerplate code, tooling complexity, and the absence of strict official guidelines.
+

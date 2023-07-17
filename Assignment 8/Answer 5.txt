@@ -1,0 +1,20 @@
+Q.5 Difference between class & function based component
+
+The main difference between class-based and function-based components in React lies in their syntax and the way they handle state and lifecycle methods.
+
+Class-based components are created using ES6 classes and extend the base React.Component class. They use a render() method to return the JSX that represents the component's UI. Class components have access to the component lifecycle methods such as componentDidMount(), componentDidUpdate(), and componentWillUnmount(), which can be used for handling side effects, data fetching, and other operations.
+
+On the other hand, function-based components are created using regular JavaScript functions. They receive props as their input and return JSX to define the component's UI. With the introduction of React Hooks in React 16.8, function-based components gained the ability to manage state and utilize lifecycle-like functionalities previously exclusive to class components. Hooks such as useState, useEffect, and useContext allow function components to handle state management, side effects, and context access.
+
+Here are some key differences between class-based and function-based components:
+
+Syntax: Class components use the ES6 class syntax and extend the React.Component class, while function components are regular JavaScript functions.
+
+Lifecycle methods: Class components have access to lifecycle methods such as componentDidMount() and componentDidUpdate(). Function components can achieve similar functionality with the useEffect hook.
+
+State management: Class components have their state managed using the this.state property, and state updates are done with this.setState(). Function components utilize hooks like useState to handle state in a more concise and straightforward manner.
+
+Reusability: Function components are generally more reusable since they are lightweight and do not rely on class inheritance. They can be easily composed and shared across different components.
+
+Code readability and simplicity: Function components tend to have a simpler and more concise syntax compared to class components, resulting in cleaner and easier-to-understand code.
+

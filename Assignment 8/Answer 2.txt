@@ -1,0 +1,16 @@
+Q.2 What do you understand by Virtual Dom?
+
+The Virtual DOM is a concept used in React and other JavaScript libraries/frameworks. It is a lightweight representation or copy of the actual DOM (Document Object Model) that is used to efficiently update and manipulate the user interface.
+
+The Virtual DOM acts as an abstraction layer between the underlying HTML DOM and the application logic. When there are changes in the application state or data, React compares the previous Virtual DOM with the updated Virtual DOM. It then calculates the minimum number of changes required to update the actual DOM and applies those changes.
+
+The Virtual DOM provides several advantages:
+
+Performance optimization: By using the Virtual DOM, React minimizes direct manipulation of the actual DOM, which can be slow and resource-intensive. Instead, it updates the Virtual DOM efficiently and then performs a batch update to the real DOM, resulting in better performance and responsiveness.
+
+Efficient updates: The Virtual DOM allows React to perform diffing, which means it compares the previous Virtual DOM with the updated Virtual DOM to identify the specific changes that need to be applied to the actual DOM. This reduces the number of updates and DOM manipulations, leading to faster rendering and a smoother user experience.
+
+Cross-platform compatibility: The Virtual DOM provides a consistent abstraction layer for manipulating the UI, regardless of the underlying platform or browser. This makes it easier to develop applications that work reliably across different environments.
+
+Developer productivity: With the Virtual DOM, developers can focus on writing declarative code that describes the desired UI state, rather than dealing with low-level DOM manipulation. This improves productivity, code maintainability, and makes it easier to reason about the application's behavior.
+
