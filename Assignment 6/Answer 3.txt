@@ -1,0 +1,44 @@
+Q.3 What’s Call Apply Bind Method & Difference Between them
+
+The call, apply, and bind methods are used in JavaScript to control the context of a function and explicitly specify the value of this within the function. Here's a brief explanation of each method and their differences:
+
+call: The call method is used to invoke a function immediately, specifying the value of this and passing arguments individually. It takes the function's context as the first argument, followed by any additional arguments passed to the function. The call method allows you to execute a function in the context of a specific object.
+Example:
+
+function greet(name) {
+  console.log(`Hello, ${name}! My name is ${this.name}.`);
+}
+
+const person = { name: 'John' };
+
+greet.call(person, 'Alice');
+// Output: Hello, Alice! My name is John.
+
+
+apply: The apply method is similar to call, but it takes arguments as an array or an array-like object. It allows you to execute a function in the context of a specific object, similar to call, but the arguments are provided as an array.
+Example:
+
+function greet(name) {
+  console.log(`Hello, ${name}! My name is ${this.name}.`);
+}
+
+const person = { name: 'John' };
+
+greet.apply(person, ['Alice']);
+// Output: Hello, Alice! My name is John.
+
+
+bind: The bind method is used to create a new function with a specified this value and, if provided, a set of initial arguments. Unlike call and apply, bind doesn't immediately invoke the function but instead returns a new function that can be invoked later. It allows you to create a function with a predetermined context and pre-set arguments.
+Example:
+
+function greet(name) {
+  console.log(`Hello, ${name}! My name is ${this.name}.`);
+}
+
+const person = { name: 'John' };
+
+const greetPerson = greet.bind(person);
+greetPerson('Alice');
+// Output: Hello, Alice! My name is John.
+
+

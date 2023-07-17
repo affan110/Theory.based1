@@ -1,0 +1,27 @@
+Q.5 Whats Abstraction and Its Purpose?
+
+Abstraction is a fundamental concept in programming that involves representing complex systems or processes in a simplified and more manageable way. Its purpose is to hide unnecessary details and expose only the essential features or functionality to users or other parts of the code.
+
+The primary purpose of abstraction is to manage complexity and improve code maintainability. By abstracting away unnecessary details, developers can focus on the essential aspects of a system or a class, making it easier to understand, use, and modify.
+
+Abstraction is achieved through the use of abstract classes, interfaces, and encapsulation. Abstract classes provide a blueprint for derived classes, defining common properties and methods that they must implement. Interfaces define a contract of methods that implementing classes must adhere to. Encapsulation allows hiding the internal implementation details of an object and exposing only the necessary methods and properties.
+
+Benefits of abstraction include:
+
+Simplification: Abstraction simplifies complex systems by breaking them down into manageable and understandable components. It allows developers to work with higher-level concepts and hide unnecessary details, making the code more readable and maintainable.
+
+Reusability: Abstraction promotes code reusability by providing a common interface or set of methods that can be implemented by multiple classes. This allows developers to create modular and extensible code, reducing redundancy and improving efficiency.
+
+Flexibility: Abstracting away implementation details makes it easier to modify or replace specific components without affecting the rest of the system. It provides flexibility in adapting to changing requirements or integrating with other parts of the code.
+
+Encapsulation: Abstraction often goes hand in hand with encapsulation, which protects the internal workings of an object from external interference. Encapsulation ensures that the implementation details are hidden and only the necessary interfaces are exposed, enhancing security and preventing unintended modifications.
+
+In summary, abstraction is the process of simplifying complex systems or classes by hiding unnecessary details and exposing only the essential functionality. Its purpose is to manage complexity, improve code maintainability, promote reusability, and provide flexibility in adapting and modifying code. Abstraction is achieved through the use of abstract classes, interfaces, and encapsulation.
+
+
+
+
+
+
+
+

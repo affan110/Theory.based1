@@ -1,0 +1,14 @@
+Q.2 Explain This Keyword and Its Purpose?
+
+The "this" keyword is a reference to the current object within a class or method. Its purpose is to differentiate between local variables and instance variables of the same name, allowing for unambiguous access to the object's members.
+
+When a class has instance variables and methods, the "this" keyword is used to refer to the current object's members. It is particularly useful in scenarios where there is a naming conflict between a local variable and an instance variable. By using "this", the instance variable is explicitly accessed, ensuring that the intended variable is used.
+
+The main purposes of the "this" keyword are:
+
+Disambiguation: It helps distinguish between local variables and instance variables that share the same name. This is especially relevant when assigning values or retrieving data from object properties or methods.
+
+Object Access: The "this" keyword provides a way to access the current object's properties, methods, or constructors from within the object itself. It allows for the use of object members within the object's own code.
+
+Method Chaining: It facilitates method chaining, where multiple methods of an object can be called sequentially in a single statement. By returning "this" from each method, the object itself is returned, enabling cascading method calls.
+

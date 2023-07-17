@@ -1,0 +1,10 @@
+Q.4 Explain OOPS ? 
+
+OOPS stands for Object-Oriented Programming. It is a programming paradigm that organizes code into objects, which are instances of classes. OOPS focuses on modeling real-world entities as objects that have attributes (properties) and behaviors (methods). The core principles of OOPS are encapsulation, inheritance, and polymorphism.
+
+Encapsulation: Encapsulation refers to the bundling of data and methods together within an object. It allows for the hiding of internal details and provides a clean interface to interact with the object. This helps in achieving data abstraction and enhances code modularity and reusability.
+
+Inheritance: Inheritance allows classes to inherit properties and behaviors from other classes. It establishes a hierarchical relationship between classes, where a subclass can inherit and extend the features of a superclass. Inheritance promotes code reuse and facilitates the creation of more specialized classes.
+
+Polymorphism: Polymorphism enables objects of different classes to be treated as objects of a common superclass. It allows the same method to be implemented in different ways in different classes, based on the specific context. Polymorphism enhances code flexibility and enables more generic and flexible programming.
+
