@@ -1,0 +1,11 @@
+Q.2 What are Web Apis ?
+
+Web APIs (Application Programming Interfaces) are sets of rules and protocols that allow different software applications to communicate and interact with each other over the internet. They serve as bridges between different systems, enabling the exchange of data and functionality.
+
+Web APIs provide a standardized way for developers to access and manipulate resources and services on the web, such as retrieving data from a database, posting information, or performing specific actions. These APIs use well-defined protocols, such as HTTP (Hypertext Transfer Protocol), to establish communication between the client and the server.
+
+Web APIs come in various forms, with the most common types being RESTful APIs (Representational State Transfer) and SOAP (Simple Object Access Protocol) APIs. RESTful APIs are based on a set of principles and architectural constraints that promote scalability, simplicity, and statelessness. They typically use HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources exposed by the API.
+
+Web APIs are widely used in modern web development to build dynamic and interactive applications. They allow developers to integrate external services, access data from different sources, and create mashups by combining data from multiple APIs. This enables the development of rich and interconnected web applications that can leverage the capabilities of other systems.
+
+Developers can access web APIs by making HTTP requests to specific endpoints provided by the API. These requests typically include parameters and headers that specify the desired action or data. The API responds with the requested information in a structured format, such as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language).

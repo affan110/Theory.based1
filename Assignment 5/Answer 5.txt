@@ -1,0 +1,9 @@
+Q.5 What are Callbacks &  Callback Hell ?
+
+Callbacks are a fundamental concept in asynchronous programming that allows for the execution of code after a specific task or event has completed. In programming, a callback is a function that is passed as an argument to another function, and it is invoked or called once the designated task or event has finished.
+
+Callbacks are commonly used in scenarios where the execution of a task takes a significant amount of time, such as reading data from a file, making an API call, or performing a database query. Instead of blocking the program's execution until the task is complete, callbacks enable the program to continue running other code while waiting for the task to finish. Once the task is done, the callback function is triggered, allowing the program to handle the result or perform additional operations.
+
+However, when callbacks are nested within each other excessively, it can lead to a phenomenon known as "Callback Hell." Callback Hell occurs when code becomes difficult to read and maintain due to the proliferation of nested callbacks. This situation arises when multiple asynchronous operations depend on each other's results or when there are numerous error-handling branches.
+
+In Callback Hell, the code structure becomes convoluted, making it challenging to follow the flow of execution and understand the program's logic. This can result in code that is error-prone, difficult to debug, and hard to extend or modify.

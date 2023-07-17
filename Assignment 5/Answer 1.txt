@@ -1,0 +1,7 @@
+Q.1 What’s difference between Synchronous and Asynchronous?
+
+Synchronous and asynchronous are two different approaches to communication and processing in various systems. The main difference lies in the timing and coordination of events.
+
+Synchronous communication or processing involves events that occur in a coordinated and time-bound manner. In this approach, the sender and receiver of information are synchronized, meaning they must be active and ready to exchange data at the same time. For example, in a synchronous communication system, a sender may send a message and wait for a response before proceeding further. The sender and receiver are dependent on each other's availability and timing for the communication to occur successfully. Synchronous processing is commonly used in real-time systems or applications that require immediate responses.
+
+On the other hand, asynchronous communication or processing does not require the sender and receiver to be synchronized or operate in real-time. It allows events to occur independently and at their own pace. In this approach, the sender initiates a request or action and doesn't wait for an immediate response. Instead, it can continue with other tasks while waiting for the response to arrive. Asynchronous communication is often used in situations where the sender and receiver may have different speeds or availability. It provides flexibility and can handle delays, making it suitable for scenarios such as distributed systems, file transfers, or web-based interactions.
